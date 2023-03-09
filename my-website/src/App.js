@@ -4,7 +4,7 @@ import Register from './componets/forn/Register';
 function App() {
   return (
     <div>
-      
+      <Register />
     </div>
   );
 }
