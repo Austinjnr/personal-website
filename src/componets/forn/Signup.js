@@ -1,7 +1,7 @@
 function SignIn() {
     return (  
         <section>
-            <div className="card" style={{width: "18rem"}}>
+            <div className="card" style={{width: "35rem", position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)"}}>
             <h2>LogIn</h2>
             <form>
                 <div class="mb-">
