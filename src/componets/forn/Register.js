@@ -2,6 +2,8 @@
 function Register() {
     return ( 
         <section>
+            <div className="card" style={{width: "18rem"}}>
+            <h2>Create an Account</h2>
           <form>
                 <div class="mb-">
                     <label for="exampleInputEmail" className="form-label">User Name</label>
@@ -19,10 +21,14 @@ function Register() {
                     <input type="checkbox" className="form-check-input" id="exampleInputCheck"></input>
                     <label className="form-check-label" for="exampleCheck1">Check the Box</label>
                 </div>
+                <button type="submit" className="btn btn-primary">
+                    Already have an account? LogIn here! 
+                </button>
                 <buton type="submit" className="btn btn-primary">
                     Create Account
                 </buton>
             </form>
+            </div>
         </section>
      );
 }

@@ -1,6 +1,8 @@
 function SignIn() {
     return (  
         <section>
+            <div className="card" style={{width: "18rem"}}>
+            <h2>LogIn</h2>
             <form>
                 <div class="mb-">
                     <label for="exampleInputEmail" className="form-label">Email Address</label>
@@ -19,6 +21,7 @@ function SignIn() {
                     Sign In
                 </buton>
             </form>
+            </div>
         </section>
     );
 }
